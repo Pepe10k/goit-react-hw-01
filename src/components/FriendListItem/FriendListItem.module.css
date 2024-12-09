@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.status {
+  font-size: 14px;
+}
+
+.online {
+  color: rgb(33, 184, 33);
+}
+
+.offline {
+  color: rgb(195, 30, 30);
+}

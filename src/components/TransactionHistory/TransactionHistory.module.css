@@ -1,0 +1,32 @@
+.transactionHistory {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.transactionHistory th,
+.transactionHistory td {
+  border: 1.8px solid #0f0f0f;
+  padding: 8px;
+  text-align: center;
+}
+
+.transactionHistory th {
+  background-color: #3f3e3e;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.transactionHistory tbody tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.transactionHistory tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.transactionHistory tbody td {
+  color: #000000;
+  text-transform: capitalize;
+}
